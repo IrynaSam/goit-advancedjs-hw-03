@@ -33,3 +33,51 @@ img {
   max-width: 100%;
   height: auto;
 }
+.cat-info {
+  max-width: 700px;
+  padding-top: 20px;
+  color: rgb(58, 41, 80);
+  gap: 20px;
+}
+
+.breed-select {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(97, 67, 133);
+  color: rgb(231, 231, 219);
+  font-size: 20px;
+  font-family: montserrat;
+  border-radius: 10px;
+  border-color: rgb(97, 67, 133);
+}
+.loader {
+  color: rgb(97, 67, 133);
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.cat-name {
+  font-family: montserrat;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.description {
+  font-family: montserrat;
+  text-align: start;
+  padding-bottom: 10px;
+  color: rgb(58, 41, 80);
+}
+
+.temperament {
+  font-family: montserrat;
+  font-size: 25px;
+  color: rgb(58, 41, 80);
+}
+
+.temp-descr {
+  font-family: montserrat;
+  color: rgb(58, 41, 80);
+  text-align: start;
+}

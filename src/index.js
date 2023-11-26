@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { fetchBreeds, fetchCatByBreed } from './js/cat-api';
 //page elements
 const body = document.querySelector('body');
-const select = document.querySelector('.breed-select');
+const select = document.querySelector('.select');
 const loader = document.querySelector('.loader');
 const catInfo = document.querySelector('.cat-info');
 
@@ -11,7 +11,7 @@ select.style.display = 'none';
 
 document.addEventListener('DOMContentLoaded', onDocumentLoad);
 select.addEventListener('change', breedClickHandler);
-//function to request cat info
+
 async function breedClickHandler(e) {
   const selectedOption = e.target.value;
 
@@ -33,7 +33,7 @@ async function breedClickHandler(e) {
     console.log(`${error.message}`);
   }
 }
-//function executed on page load
+
 async function onDocumentLoad() {
   try {
     const breeds = await fetchBreeds();

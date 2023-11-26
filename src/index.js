@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { fetchBreeds, fetchCatByBreed } from './js/cat-api';
 //page elements
 const body = document.querySelector('body');
-const select = document.querySelector('.select');
+const select = document.querySelector('.breed-select');
 const loader = document.querySelector('.loader');
 const catInfo = document.querySelector('.cat-info');
 
